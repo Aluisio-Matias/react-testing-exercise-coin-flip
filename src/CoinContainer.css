@@ -1,0 +1,27 @@
+.CoinContainer {
+    text-align: center;
+}
+
+.flip-button {
+    padding: 8px 14px;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #8a8a8a;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(170, 170, 170);
+}
+
+.flip-button:active {
+    background-color: #505050;
+    box-shadow: 0 5px #505050;
+    transform: translateY(4px);
+  }
+
+.flip-button:hover {
+    background-color:#505050;
+}
